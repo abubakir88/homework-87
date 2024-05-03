@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: plum;
+  color: #f2f2f2;
+  min-height: 100vh;
+  margin-top: 20px;
+}
+.inputForm {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  width: 500px;
+  height: 50px;
+  margin-left: -50px;
+}
+.addBut {
+  padding: 4px;
+  border: none;
+  background-color: palegreen;
+  color: plum;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.addBut:hover {
+  background-color: palegoldenrod;
+  transition: 0.4s;
+}
+
+.h1Center {
+  color: palegreen;
+  text-align: center;
+  font-size: 40px;
+}
+.innn {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 60px;
+  input {
+    background-color: palegreen;
+    color: plum;
+    &::placeholder {
+      color: plum;
+    }
+  }
+}
+
+.butDelete {
+  width: 60px;
+  height: 40px;
+  background-color: plum;
+  border: none;
+  color: palegreen;
+  margin-left: 245px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.butDelete:hover {
+  background-color: palegoldenrod;
+  transition: 0.4s;
+  color: plum;
+}
+// .table {
+//   margin-left: 580px;
+//   display: flex;
+//   gap: 15px;
+//   background-color: rgb(255, 255, 255);
+//   width: 500px;
+//   height: 50px;
+// }
+// .tableP {
+//   padding-left: 20px;
+//   padding-top: 5px;
+//   width: 180px;
+//   color: black;
+//   font-size: 18px;
+// }
+
+.todos {
+  display: grid;
+  place-items: center;
+}
+
+.todo {
+  width: 100%;
+  max-width: 800px;
+  background-color: palegreen;
+  color: plum;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
